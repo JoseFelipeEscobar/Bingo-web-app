@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="left">
+    <img src="https://i.imgur.com/GN85PSz.png" />
+    <div class="card">
+      <input placeholder="Nombre" [(ngModel)]="name"/>
+      <input type="User name" placeholder="Nombre de usuario" [(ngModel)]="userName"/>
+      <input type="password" placeholder="Contraseña" [(ngModel)]="password"/>
+
+      <button (click)="singup()">Registrarse</button>
+      <p>
+        <a href="login">Ya tengo una cuenta</a>
+      </p>
+    </div>
+  </div>
+  <div class="right visible">
+    <div class="blur"></div>
+  </div>
+</div>
